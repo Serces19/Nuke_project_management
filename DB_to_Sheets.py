@@ -44,5 +44,3 @@ id = cur.fetchall()
 for a, b, c, d, e, f in zip(id, shot_name, capitulo, secuence, first, last):
   worksheet.append_row([a[0], b[0], c[0], d[0], e[0], f[0]])
   time.sleep(1)
-
-# worksheet.append_row([folder, first, last])
